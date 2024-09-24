@@ -1,7 +1,7 @@
 # Web 102 - React Projects
 
 ## Description
-This repository contains my projects and assignments for the Web 102 course offered by CodePath. The course focuses on building web applications using React, a popular JavaScript library for creating user interfaces.
+This repository contains my projects and labs for the Web 102 course offered by CodePath. The course focuses on building web applications using React, a popular JavaScript library for creating user interfaces.
 
 ## Course Overview
 Web 102 covers fundamental and intermediate concepts of React development, including:
