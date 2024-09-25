@@ -1,0 +1,107 @@
+:root {
+  --font-primary: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+
+  /* Bright Colors */
+  --color-text-light: #ffffff;
+  --color-text-dark: #212121;
+  --color-bg-light: #f4f4f9;
+  --color-bg-dark: #e6e6fa; /* Light Purple (Lavender) */
+
+  /* Accent Colors */
+  --color-accent: #FF69B4; /* Pink */
+  --color-accent-2: #9b59b6; /* Purple */
+  --color-accent-3: #ff8c00; /* Orange */
+  --color-accent-4: #40E0D0; /* Turquoise */
+  
+  --transition-speed: 0.25s;
+  --button-gradient: linear-gradient(135deg, var(--color-accent), var(--color-accent-4));
+
+  font-family: var(--font-primary);
+  font-weight: 400;
+  line-height: 1.6;
+  color-scheme: light dark;
+  color: var(--color-text-light);
+  background-color: var(--color-bg-dark);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: var(--color-bg-dark);
+  transition: background-color var(--transition-speed), color var(--transition-speed);
+}
+
+/* Headings */
+h1 {
+  font-size: 3.5em;
+  line-height: 1.2;
+  font-weight: 700;
+  margin: 0;
+  color: var(--color-accent-2); /* Purple */
+}
+
+/* Links */
+a {
+  font-weight: 500;
+  color: var(--color-accent-3); /* Orange */
+  text-decoration: none;
+  transition: color var(--transition-speed);
+}
+a:hover {
+  color: var(--color-accent-4); /* Turquoise */
+}
+
+/* Buttons */
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.7em 1.5em;
+  font-size: 1em;
+  font-weight: 500;
+  background: var(--button-gradient);
+  color: var(--color-text-light);
+  cursor: pointer;
+  transition: background-color var(--transition-speed), border-color var(--transition-speed);
+}
+button:hover {
+  border-color: var(--color-accent-2); /* Purple */
+  background: linear-gradient(135deg, var(--color-accent-2), var(--color-accent-3)); /* Purple to Orange */
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto var(--color-accent);
+}
+
+/* Media Queries */
+@media (prefers-color-scheme: light) {
+  :root {
+    color: var(--color-text-dark);
+    background-color: var(--color-bg-light);
+  }
+
+  a:hover {
+    color: var(--color-accent);
+  }
+
+  button {
+    background: var(--button-gradient);
+  }
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2.5em;
+  }
+
+  button {
+    padding: 0.5em 1em;
+  }
+}
