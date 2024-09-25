@@ -34,7 +34,6 @@ Here's a walkthrough of implemented required features:
     <source src="https://i.imgur.com/2FVGVHK.mp4" type="video/mp4">
     Your browser does not support the video tag.
 </video>
-<img src='https://i.imgur.com/2FVGVHK.mp4' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with LICEcap
 
