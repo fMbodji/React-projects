@@ -30,10 +30,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-<video width="320" height="240" controls>
-  <source src="https://i.imgur.com/VapkpbB.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+<img src='https://i.imgur.com/2FVGVHK.mp4' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with LICEcap
 
