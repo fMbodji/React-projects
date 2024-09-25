@@ -30,7 +30,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-<img src='/images/walkthrough.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://imgur.com/a/community-board-walkthrough-kHjlC7L' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with LICEcap
 <!-- Recommended tools:
