@@ -13,30 +13,29 @@ Welcome to the Montgomery College Computer Science Community! This board is a re
 
 The following **required** functionality is completed:
 
--  **There is a unique theme for events or resources relevant to a specific community (Montgomery College CS majors**
-- **At least 10 unique resources or events are displayed in a responsive card format (6 required courses and 4 electives)**
+- [x]  **There is a unique theme for events or resources relevant to a specific community (Montgomery College CS majors**
+- [x] **At least 10 unique resources or events are displayed in a responsive card format (6 required courses and 4 electives)**
 
 The following **optional** features are implemented:
 
-- Buttons or links to a related resource are on each card component (course descriptions)
-- The site is responsive for both desktop and mobile formats
+- [x] Buttons or links to a related resource are on each card component (course descriptions)
+- [x] The site is responsive for both desktop and mobile formats
 
 The following **additional** features are implemented:
 
-- Implemented a hover effect on cards to enhance user interaction
-- Dark mode support based on user preferences
+- [x] Implemented a hover effect on cards to enhance user interaction
+- [x] Dark mode support based on user preferences
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented required features:
 
-<img src='https://imgur.com/a/community-board-walkthrough-kHjlC7L' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<video width="320" height="240" controls>
+  <source src="https://i.imgur.com/VapkpbB.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 GIF created with LICEcap
-<!-- Recommended tools:
-[Kap](https://getkap.co/) for macOS
-[ScreenToGif](https://www.screentogif.com/) for Windows
-[peek](https://github.com/phw/peek) for Linux. -->
 
 ## Notes
     A challenge I encountered was ensuring the cards were displayed consistently across different screen sizes. 
