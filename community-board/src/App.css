@@ -1,0 +1,107 @@
+/* Basic global styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  background-color: #f4f4f9; /* Keeping your white background */
+  color: #333;
+}
+
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+.App-header {
+  background-color: #ffffff; /* White background for the header */
+  padding: 40px 20px; /* More padding for better spacing */
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds soft shadow for visual effect */
+  margin-bottom: 30px; /* Adds space below the header to separate it from other content */
+  max-width: 1000px; /* Limit header width */
+  margin-left: auto;
+  margin-right: auto; /* Centers header horizontally */
+}
+
+.App-header h1 {
+  color: var(--color-accent-2); /* Purple text */
+  margin-bottom: 15px; /* Adds some space below the heading */
+  font-size: 3rem; /* Slightly larger font size */
+}
+
+.App-header p {
+  color: var(--color-text-dark);
+  margin-top: 10px;
+  font-size: 1.2rem; /* Ensures text size is readable */
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+/* Card Container */
+.content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Enforce 3 cards per row */
+  gap: 20px;
+  justify-content: center;
+  margin-top: 30px; /* Space between header and cards */
+}
+
+/* Card Styles */
+.card {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 100%; /* Full width within the grid cell */
+  max-width: 400px; /* Increase the size of the cards */
+  text-align: left;
+  transition: transform 0.3s ease;
+}
+
+/* Adding hover effect for the card */
+.card:hover {
+  transform: translateY(-10px); /* Cards lift on hover */
+}
+
+.card h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+/* Button Styles */
+.card button {
+  background: linear-gradient(135deg, #FF69B4, #40E0D0); /* Pink to turquoise gradient */
+  color: white;
+  border: none;
+  padding: 10px; /* Ensure padding for the button */
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.card-image {
+  width: 100%; /* Full width of the card container */
+  height: 200px; /* Fixed height for the container */
+  display: flex; /* Flexbox for centering */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  overflow: hidden; /* Hide overflow */
+  background-color: #f0f0f0; /* Light background for contrast */
+}
+
+.card-image img {
+  max-width: 100%; /* Prevents the image from exceeding the container width */
+  height: auto; /* Maintains the image's aspect ratio */
+  object-fit: contain; /* Ensures the image fits within the container */
+  display: block; /* Removes inline spacing */
+}
